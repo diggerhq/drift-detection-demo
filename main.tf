@@ -1,18 +1,21 @@
+provider "aws" {
+  region = "us-east-2"
+}
+
 data "aws_vpc" "default_vpc" {
-  id = var.vpc_id
 }
 
 resource "aws_security_group" "allow_tls" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
-  vpc_id      = data.default_vpc.id
+  vpc_id      = data.aws_vpc.default_vpc.id
 
   ingress {
     description = "TLS from VPC"
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = [data.default_vpc.cidr_block]
+    cidr_blocks = [data.aws_vpc.default_vpc.cidr_block]
   }
 
   egress {
