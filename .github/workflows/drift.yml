@@ -1,0 +1,12 @@
+name: GitHubActions Job Schedule
+
+on:
+  schedule: ## Schedule the job to run at 12.am daily.
+    - cron: '*/5 * * * *'
+
+jobs:
+  detect-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 OK"
+  
