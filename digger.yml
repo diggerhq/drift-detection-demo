@@ -1,0 +1,4 @@
+projects:
+    - name: dev
+      dir: .
+      drift_detect: true
