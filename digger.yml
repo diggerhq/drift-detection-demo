@@ -1,4 +1,7 @@
 projects:
     - name: dev
-      dir: .
+      dir: dev
+      drift_detect: false
+    - name: prod
+      dir: prod
       drift_detect: true
