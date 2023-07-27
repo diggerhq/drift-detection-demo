@@ -1,4 +1,4 @@
-name: GitHubActions Job Schedule
+name: Drift Detection
 
 on:
   schedule: ## Schedule the job to run at 12.am daily.
