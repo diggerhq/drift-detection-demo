@@ -26,3 +26,5 @@ resource "aws_security_group" "allow_tls" {
   }
 
 }
+
+resource "null_resource" "xx" {}
