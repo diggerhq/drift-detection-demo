@@ -2,7 +2,5 @@ auto_merge: true
 projects:
     - name: dev
       dir: dev
-      drift_detection: false
     - name: prod
       dir: prod
-      drift_detection: true
