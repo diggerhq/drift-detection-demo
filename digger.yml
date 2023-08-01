@@ -1,6 +1,6 @@
 auto_merge: true
 projects:
-    - name: dev
+    - name: "dev-sg"
       dir: dev
-    - name: prod
+    - name: "prod-sg"
       dir: prod
