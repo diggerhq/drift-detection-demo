@@ -1,4 +1,4 @@
-auto_merge: true
+auto_merge: false
 projects:
     - name: "dev-sg"
       dir: dev
