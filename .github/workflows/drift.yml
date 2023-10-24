@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: digger drift detection
-      uses: diggerhq/digger@v0.2.0
+      uses: diggerhq/digger@vdrift-demo
       with:
         mode: drift-detection
         setup-aws: true
