@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: digger drift detection
-      uses: diggerhq/digger@fix-drift-detection
+      uses: diggerhq/digger@fix-drift-detection-scheduled-branch
       with:
         mode: drift-detection
         setup-aws: true
