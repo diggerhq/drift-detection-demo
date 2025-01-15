@@ -2,8 +2,8 @@ name: Drift Detection
 
 on:  
   workflow_dispatch:
-  schedule: ## Schedule the job to run at 12.am daily.
-    - cron: '* * * * *'
+  #schedule: ## Schedule the job to run at 12.am daily.
+  #  - cron: '* * * * *'
 
 jobs:
   detect-drift:
