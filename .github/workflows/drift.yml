@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: digger drift detection
-      uses: diggerhq/digger@fix/slack-notification-split-long-string
+      uses: diggerhq/digger@vLatest
       with:
         mode: drift-detection
         setup-aws: true
